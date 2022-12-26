@@ -1,0 +1,11 @@
+<ul class="nav nav-pills nav-stacked">
+    <div class="table">
+        <table>
+            <th>Title</th>
+            <tr *ngFor="let video of videos" (click)="onSelect(video)">
+                <td>{{video.desc}}</td>
+            </tr>
+        </table>
+    </div>
+
+</ul>
